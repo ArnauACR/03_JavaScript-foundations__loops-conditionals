@@ -7,6 +7,7 @@
 
 const age = 20;
 
+function checkAge(){
 if (age < 3) {
   console.log("You're just a baby!");
   return;
@@ -25,3 +26,7 @@ if (age >= 18) {
 }
 
 console.log("What? How did this happen!?");
+return  
+}
+
+checkAge()
