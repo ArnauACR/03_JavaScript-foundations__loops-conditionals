@@ -4,9 +4,10 @@
 
    Add a comment explaining what is happenning and how to fix it
 */
-
+//The poblem is in the returns, because the first if is completly and return ""You are in elementary school, kid." this text is printed but no is true the solution is or change the order to major if comaprison to minor o delete de equals "
 const age = 20;
 
+function checkAge(){
 if (age < 3) {
   console.log("You're just a baby!");
   return;
@@ -25,3 +26,7 @@ if (age >= 18) {
 }
 
 console.log("What? How did this happen!?");
+return  
+}
+
+checkAge()

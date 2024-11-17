@@ -18,3 +18,17 @@
     You made it!
     All done!
 */
+
+$counter = 1;
+
+while ($counter <= 100) {
+    
+    if ($counter % 10 == 0) {
+        echo "Checkpoint! $counter\n";
+    }
+    
+    if ($counter == 50) {
+        echo "Halfwy there!\n";
+    }
+
+

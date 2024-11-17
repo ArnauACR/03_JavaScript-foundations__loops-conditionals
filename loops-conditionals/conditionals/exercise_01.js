@@ -7,3 +7,15 @@
 
     HINT: The modulus operator ( % ) is your friend.
 */
+
+// 1
+
+let number = 8;
+
+// 2
+
+if (number % 2 === 0) {
+    console.log(`Number ${number} is even`);
+} else {
+    console.log(`Number ${number} is odd`);
+}
